@@ -178,6 +178,71 @@ h1 {
   margin-top: 50px
 }
 
+.contact {
+  background: #262525;
+  height: 400px;
+}
+
+form {
+  float: right;
+  margin-top: -20%;
+  margin-right: 5%;
+}
+
+textarea {
+  color: white;
+  border-style: none;
+  border-color: #262525;
+  background-color: #262525;
+  height: 150px;
+  width: 400px;
+}
+
+.send-btn {
+  margin-top: -4%;
+  margin-right: 5%;
+  float: right;
+  background-color:#44c767;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:15px 30px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+
+h2 {
+  margin-top: -4%;
+}
+
+.contact h3 {
+  color: white;
+  margin-left: 4em;
+}
+
+.contact h1 {
+  color: white;
+  text-align: center;
+}
+
+.contact h1 {
+  padding-top: 1em;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #3ba156;
+  margin-left: 5em;
+}
+
+.contact p {
+  color: #3ba156;
+  margin-left: 5em;
+}
 
 #menu {
   background: #262525;
