@@ -2,13 +2,14 @@
 <html >
 <head>
   <meta charset="UTF-8">
-  <title>Mohammed Taklish</title>
+  <title>Mohammed Taklich</title>
   <link rel="shortcut icon" type="image/jpg" href="Img/logo.png"/>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -19,7 +20,8 @@
     <ul>
       <li><a href='#whoami'>About Me</a></li>
       <li><a href='#work_contain'>My Work</a></li>
-      <li><a href='http://'>Contact</a></li>
+      <li><a href='#contact'>Contact</a></li>
+    </ul>
   </nav>
 
     <!--<div class="sides">
@@ -46,7 +48,7 @@
       </div>
 
       <div class="moh_link">
-        <a href="https://www.instagram.com/mouhtaklich_ph/" target="_b">Mohammed Taklish </a>
+        <a href="https://www.instagram.com/mouhtaklich_ph/" target="_b">Mohammed Taklich </a>
       </div>
 
     </div>
@@ -58,13 +60,31 @@
 <section class="content">
 
   <h1 id="whoami">Who am i ?</h1>
-  <p>Mohammed Taklish an Algerian photographer who learn by itself with few material just me my phone and little bit of creativity</p>
+  <p id="pres-text">Mohammed Taklich an Algerian photographer who learn by itself with few material just me my phone and little bit of creativity</p>
 
+  <h1 id="skills">My Skills</h1>
+
+  <h2 class="skills_titre">Photography</h2>
+  <div class="bar_skill">
+    <div class="skills photo">90%</div>
+  </div>
+
+  <h2 class="skills_titre">Lightroom</h2>
+  <div class="bar_skill">
+    <div class="skills light">80%</div>
+  </div>
+
+  <h2 class="skills_titre">PicsArt</h2>
+  <div class="bar_skill">
+    <div class="skills pics">79%</div>
+  </div>
+
+  <!--
   <p align="center"><a href="https://www.instagram.com/mouhtaklich_ph/" class="btn twtr" target="_b">Follow me on Instagram</a>
   </p>
 
   <p align="center"><a href="https://www.facebook.com/mohamed.taklich.39" class="btn twtr" target="_b">Follow me on Facebook</a>
-  </p>
+  </p>-->
 
 </section>
 
@@ -92,23 +112,22 @@
   </div>
 </section>
 
-<footer class="contact">
-  <h1>Contact me on</h1>
-  <h3>Instagram :</h3>
-  <a href="https://www.instagram.com/mouhtaklich_ph/">DM Me !</a>
-  <h3>Facebook :</h3>
-  <a href="https://www.facebook.com/mohamed.taklich.39">DM Me</a>
-  <h3>My Phone Number :</h3>
-  <p>(+213)XXXXXXXX</p>
-  <h3>My Email</h3>
-  <p>MohTaklish@gmail.com</p>
+<section class="contact" id="contact">
+  <h1 class="contact-titre">Contact Me On</h1>
 
-  <form action="">
-    <h2>Leave a Comment</h2>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-  </form>
-  <button class="send-btn">Send</button>
-</footer>
+  <a href="https://www.instagram.com/mouhtaklich_ph/"><img class="social-img" src="Img/Social_Network_Icon/instagram.png"></a>
+
+  <a href="https://www.facebook.com/mohamed.taklich.39" id="fb"><img class="social-img" src="Img/Social_Network_Icon/facebook.png"></a> 
+
+  <a href="mailto: mohtaklich@gmail.com"><img class="social-img" src="Img/Social_Network_Icon/gmail.png"></a>
+  
+  <div class="span-div">
+    <p>Website Created by Massil (@HackMaster) © All rights resered</p>
+  </div>
+
+  
+
+</section>
 <script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

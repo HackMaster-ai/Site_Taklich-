@@ -55,8 +55,18 @@ h1 {
   color:#eee
 }
 
+#whoami {
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+#pres-text {
+  font-size: 19px;
+}
+
 .gallery {
   margin: 10px 50px;
+  text-align: center;
 }
 
 .gallery img {
@@ -124,6 +134,7 @@ h1 {
   padding:15% 10% 0 10%;
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
+  margin-bottom: 4.1%;
 }
 
 .moh_img {
@@ -164,84 +175,90 @@ h1 {
   text-align:justify
 }
 
-.btn{
-  color:#333;
+.btn_home {
+  color:#fff;
   border:2px solid;
   border-radius:3px;
   text-decoration:none;
   display:inline-block;
   padding:5px 10px;
-  font-weight:600
+  font-weight:600;
 }
 
-.twtr{
-  margin-top: 50px
-}
+.content {
+  margin-bottom: 4.3%;
+} 
 
 .contact {
   background: #262525;
-  height: 400px;
+  text-align: center;
 }
 
-form {
-  float: right;
-  margin-top: -20%;
-  margin-right: 5%;
+.contact div {
+  min-width: 100%;
+  text-align: center;
 }
 
-textarea {
+.contact-titre {
   color: white;
-  border-style: none;
-  border-color: #262525;
-  background-color: #262525;
-  height: 150px;
-  width: 400px;
+  font-size: 30px;
 }
 
-.send-btn {
-  margin-top: -4%;
-  margin-right: 5%;
-  float: right;
-  background-color:#44c767;
-  border-radius:28px;
-  border:1px solid #18ab29;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:17px;
-  padding:15px 30px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #2f6627;
+#fb {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact img {
+  margin-top: 5%;
+}
+
+.contact p {
+  color: white;
+  margin-top: 5%;
+  font-size: 14px;
 }
 
 h2 {
   margin-top: -4%;
 }
 
-.contact h3 {
-  color: white;
-  margin-left: 4em;
+.bar_skill {
+  width: 100%; 
+  background-color: #ddd; 
 }
 
-.contact h1 {
-  color: white;
-  text-align: center;
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
 }
 
-.contact h1 {
-  padding-top: 1em;
+.skills_titre {
+  margin-bottom: 1.5%;
 }
 
-.contact a {
-  text-decoration: none;
-  color: #3ba156;
-  margin-left: 5em;
+.photo {
+  width: 90%; background-color: #04AA6D;
 }
 
-.contact p {
-  color: #3ba156;
-  margin-left: 5em;
+.light {
+  width: 80%; background-color: #f44336;
+}
+
+.pics {
+  width: 79%; background-color: #808080;
+}
+
+.skills_titre {
+  margin-top: 4%;
+}
+
+#skills {
+  font-size: 30px;
+  margin-bottom: 3%;
+  margin-top: 4%;
 }
 
 #menu {
@@ -338,4 +355,28 @@ h2 {
   #menu input:checked + label {color:white}
   #menu input:checked + label:before {content:"\00d7"}
   #menu input:checked ~ ul {display:block}
+
+}
+
+
+@media screen and (max-width: 375px){
+  .gallery img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .contact img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /*
+  .contact p {
+    margin-top: 15%;
+  }*/
+}
+
+* { 
+  margin: 0px;
+  padding: 0px;
 }
